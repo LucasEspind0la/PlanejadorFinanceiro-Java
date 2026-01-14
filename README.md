@@ -1,16 +1,23 @@
 # 💰 Planejador Financeiro Mensal
 
-Aplicativo em Java para controlar despesas mensais com nome e valor, mostrando saldo final.
+> Um aplicativo console em Java para ajudar você a controlar suas despesas mensais, associando nome e valor a cada gasto — e recebendo um feedback claro sobre seu saldo final.
 
-## 📁 Estrutura
-- Código-fonte: `src/pacote/PlanejadorFinanceiro.java`
-- Compilado: `bin/` (gerado automaticamente)
+Feito com foco em **lógica de programação**, **boa organização de código** e **experiência do usuário no terminal**. Ideal para estudantes e iniciantes em Java que querem praticar fundamentos reais.
 
-## ▶️ Como executar
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Console App](https://img.shields.io/badge/CLI-Terminal-555?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-```bash
-# 1. Compilar
-javac -d bin src/pacote/PlanejadorFinanceiro.java
+---
 
-# 2. Executar
-java -cp bin pacote.PlanejadorFinanceiro
+## 📌 Funcionalidades
+
+✅ Informe seu salário mensal  
+✅ Adicione despesas com **nome e valor** (ex: “Aluguel”, “Supermercado”)  
+✅ Validação de entrada: valores negativos, vazios ou inválidos são ignorados  
+✅ Feedback visual ao adicionar cada despesa  
+✅ Relatório final completo com:
+   - Lista de todas as despesas cadastradas
+   - Total gasto
+   - Saldo restante
+   - Mensagem personalizada (🎉 economizou / ⚠️ gastou tudo / 💸 ficou no negativo)
